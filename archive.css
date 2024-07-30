@@ -1,0 +1,79 @@
+
+
+.list-container{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 180px;
+    width: 100vw;
+    height: calc(100vh - 200px);
+ 
+}
+
+.list-box{
+    width: 35vw;
+    height: calc(100vh - 200px);
+    border: 1px dashed black;
+    border-width: 0px 1px 0px 0px;
+    box-sizing: border-box;
+    padding: 20px 30px;
+}
+
+ul li{
+    list-style-type: disc;
+    list-style-position: outside;
+}
+
+.list-box a{
+    text-decoration: none;
+}
+
+.list-box h1{
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.list-box li{
+    font-family: Bookish;
+    font-size: 20px;
+    font-weight: 900;
+    color: black;
+    list-style-type: disc;
+    list-style-position: outside;
+    margin-bottom: 20px;
+}
+
+.list-box li:hover{
+    text-decoration: underline;
+}
+
+.sub-list-box{
+    width: 30vw;
+    height: calc(100vh - 200px);
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.sub-list-box a{
+    text-decoration: none;
+}
+
+.sub-list-box h1{
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.sub-list-box li{
+    font-family: Bookish;
+    font-size: 20px;
+    font-weight: 900;
+    color: black;
+    list-style-type: disc;
+}
+
+.sub-list-box li:hover{
+    text-decoration: underline;
+}
