@@ -40,19 +40,39 @@ ul li{
     font-family: Manrope;
     font-size: 10px;
     font-weight: 400;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
     border: 1px dashed black;
     border-width: 0px 0px 1px 0px;
 }
 
+.list-box h3{
+    width: 30%;
+    min-width: 165px;
+    text-align: left;
+    font-family: Syne Mono;
+    font-size: 10px;
+    line-height: 15px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    border: 1px dashed black;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    border-width: 0px 0px 1px 0px;
+    border-radius: 0px;
+}
+
+
+
 .list-box li{
     font-family: Syne Mono;
     font-size: 15px;
-    font-weight: 900;
+    font-weight: 500;
     color: black;
     list-style-type: disc;
     list-style-position: outside;
     margin-bottom: 20px;
+    margin-left: -25px;
 }
 
 .list-box li:hover{
@@ -89,3 +109,4 @@ ul li{
 .sub-list-box li:hover{
     text-decoration: underline;
 }
+

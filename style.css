@@ -553,3 +553,60 @@ body{
     color: white;
     letter-spacing: 1.3px;
 }
+
+.index-footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100vw;
+    height: 30px;
+    box-sizing: border-box;
+    background-color: black;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.index-footer h1{
+    margin-top: 5px;
+    margin-left: 5px;
+    
+    font-family: Syne Mono;
+    font-size: 10px;
+    color: white;
+    text-align: left;
+}
+
+.if-leftbox1{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 100px;
+    height: 30px;
+    background-color: dodgerblue;
+}
+
+.if-leftbox1 h2{
+    margin-top: 9px;
+    margin-right: 10px;
+    font-family: Syne Mono;
+    font-size: 10px;
+    color: white;
+    text-align: right;
+}
+
+.if-leftbox2{
+    position: absolute;
+    right: 100px;
+    top: 0px;
+    width: 40px;
+    height: 30px;
+    background-color: #ffc219;;
+}
+
+.if-leftbox2 h2{
+    margin-top: 8px;
+    margin-left: 15px;
+    font-family: Syne Mono;
+    font-size: 10px;
+    color: black;
+    text-align: left;
+}
