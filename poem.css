@@ -17,52 +17,43 @@
     object-fit: cover;
 }
 
-.article-container{
-    width: 700px;
+.poem-container{
+    width: 500px;
     background-color: ;
     margin: auto;
     left: 0;
     right: 0;
-    padding: 20px;
-    padding-top: 400px;
+    padding: 50px;
+    padding-top: 280px;
     padding-bottom: 400px;
   
 }
 
 @media all and (max-width: 800px) {
-    .article-container{
+    .poem-container{
         width: 100vw;
         box-sizing: border-box;
     }
 }
 
-.headline-container{
-    width: 1000px;
-    transform: translateX(-150px);
-    text-align: center;
+.poem-headline-container{
+    
+    margin-top: 50px;
+    text-align: left;
 }
 
 @media all and (max-width: 800px) {
-    .headline-container{
-        width: 90vw;
-        transform: none;
-        box-sizing: border-box;
+    .poem-headline-container{
+        margin-top: -100px;
     }
 }
 
-.headline-container h1{
+.poem-headline-container h1{
     font-family: Fraunces;
     font-weight: 600;
-    font-size: 55px;
-    letter-spacing: -2.25px;
+    font-size: 20px;
+    letter-spacing: -.8px;
     animation: 1s headlineload;
-}
-
-@media all and (max-width: 800px) {
-    .headline-container h1{
-        font-size: 30px;
-        letter-spacing: -.5px;
-    }
 }
 
 @keyframes headlineload{
@@ -77,60 +68,62 @@
     
 }
 
-.subheadline-container h2{
+.poem-subheadline-container h2{
     margin-top: -10px;
     font-family: Manrope;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
 }
 
-.paragraph-container p{
-    margin-top: 70px;
+
+
+.poem-paragraph-container p{
+    margin-top: 50px;
     font-family: Bookish;
-    font-size: 20px;
-    line-height: 33px;
+    font-size: 18px;
+    line-height: 31px;
     font-weight: 900;
     text-justify: pretty;
 }
 
-.paragraph-container p:first-child::first-letter {
-    color: black;
-    padding-right: 5px;
-  
-    -webkit-initial-letter: 3;
-    initial-letter: 3;
+@media all and (max-width: 800px) {
+    .poem-paragraph-container p{
+        font-size: 14px;
+        line-height: 25px;
+    }
 }
 
-.next-previous-container{
-    width: 290px;
+.next-poem-container{
+    width: 280px;
     float: right;
 }
 
-.next-previous-container a{
+.next-poem-container a{
     text-decoration: none;
 }
 
-.next-previous-container h2{
+.next-poem-container h2{
     margin-top: 150px;
+    padding-bottom: 10px;
     font-family: Bookish;
-    font-size: 40px;
+    font-size: 20px;
     font-weight: 900;
     text-align: right;
     color: dodgerblue;
     border-bottom: 1px dashed dodgerblue;
 }
 
-.next-previous-container h3{
-    margin-top: -20px;
+.next-poem-container h3{
+    margin-top: -10px;
     font-family: Bookish;
     font-size: 15px;
     line-height: 25px;
     font-weight: 900;
     text-align: right;
-    color: dodgerblue;
+    color: grey;
 }
 
-.next-previous-container a:hover h3{
+.next-poem-container a:hover h3{
     text-decoration: underline;
 }
 

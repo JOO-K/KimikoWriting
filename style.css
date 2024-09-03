@@ -68,6 +68,15 @@ body {
   filter: drop-shadow(0 10px 20px rgba(0,0,0,0.5));
 }
 
+@media all and (max-width: 800px) {
+    .gallery-top {
+        height: 50%;
+        width: 90%;
+        margin-top: 100px;
+    }
+}
+
+
 .gallery-top .swiper-slide{
 
 
@@ -83,11 +92,25 @@ body {
   padding: 10px 0;
 }
 
+@media all and (max-width: 800px) {
+    .gallery-thumbs {
+        width: 200px;
+    }
+}
+
+
 .gallery-thumbs .swiper-slide {
   width: 25%;
   height: 100%;
   opacity: 0.5;
 }
+
+@media all and (max-width: 800px) {
+    .gallery-thumbs .swiper-slide {
+        height: 75%;
+    }
+}
+
 
 .gallery-thumbs .swiper-slide-thumb-active {
   opacity: 1;
@@ -137,6 +160,14 @@ body{
 
 }
 
+@media all and (max-width: 800px) {
+    .name-container {
+        width: 100vw;
+        box-sizing: border-box;
+        padding-bottom: 60px;
+    }
+}
+
 .name-container:after {
     content: "";
     background: black;
@@ -147,18 +178,25 @@ body{
     width: 1px;
   }
 
+  @media all and (max-width: 800px) {
+    .name-container::after {
+        display: none;
+    }
+}
   
 
 .name-container .text-left{
     float: left;
     width: 50;
     text-align: left;
+    margin-top: 5px;
 }
 
 .name-container .text-right{
     float: right;
     width: 50%;
     text-align: right;
+    margin-top: 5px;
 }
 
 .name-container h1{
@@ -249,7 +287,7 @@ body{
     left: 71px;
     top: 70px;
     height: 50px;
-    background-color: #ffc219;
+    background-color: #e6435b;
     animation: 1s linkmargin;
     z-index: 1;
 }
@@ -275,6 +313,12 @@ body{
     border-width: 0px 0px 1px 0px;
     background-color: white;
     
+}
+
+@media all and (max-width: 800px) {
+    .link-container {
+        display: none;
+    }
 }
 
 .link-container:after {
@@ -370,6 +414,12 @@ body{
     background-color: white;
 }
 
+@media all and (max-width: 800px) {
+    .link-container {
+        display: none;
+    }
+}
+
 .text-container:after {
     content: "";
     background: black;
@@ -400,6 +450,12 @@ body{
     border: 1px solid black;
     border-width: 0px 0px 1px 0px;
     background-color: white;
+}
+
+@media all and (max-width: 800px) {
+    .link-container {
+        display: none;
+    }
 }
 
 .action-container:after {
@@ -491,6 +547,14 @@ body{
    
 }
 
+@media all and (max-width: 800px) {
+    .work-title{
+        width: 70%;
+        margin-top: 60px;
+        transform: none;
+    }
+}
+
 .swiper-slide a{
     text-decoration: none;
 }
@@ -505,6 +569,12 @@ body{
     border-radius: 3px;
 }
 
+@media all and (max-width: 800px) {
+    .work-title h1{
+        font-size: 20px;
+    }
+}
+
 .work-title h2{
     width: 40%;
     margin: auto;
@@ -516,6 +586,16 @@ body{
     background-color: black;
     padding: 12px 20px 20px 20px;
     border-radius: 3px;
+}
+
+@media all and (max-width: 800px) {
+    .work-title h2{
+        font-family: pt root;
+        font-size: 12px;
+        margin-top: 0px;
+        width: 60%;
+        padding: 10px 3px;
+    }
 }
 
 .work-title h3{
@@ -532,6 +612,16 @@ body{
     border-radius: 3px;
 }
 
+@media all and (max-width: 800px) {
+    .work-title h3{
+        font-family: pt root;
+        font-size: 12px;
+        margin-top:-10px;
+        width: 60%;
+        padding: 10px 3px;
+    }
+}
+
 .work-container-title{
     position: absolute;
     top: 25px;
@@ -544,6 +634,13 @@ body{
     border-radius: 12px 12px 0px 0px;
 }
 
+@media all and (max-width: 800px) {
+    .work-container-title{
+        width: 150px;
+        top: 75px;
+    }
+}
+
 .work-container-title h1{
     font-family: Manrope;
     font-size: 12px;
@@ -552,6 +649,33 @@ body{
     padding: 5px;
     color: white;
     letter-spacing: 1.3px;
+}
+
+@media all and (max-width: 800px) {
+    .work-container-title h1{
+        font-size: 10px;
+    }
+}
+
+.real-index-footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100vw;
+    height: 30px;
+    box-sizing: border-box;
+    background-color: black;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.real-index-footer h1{
+    margin-top: 5px;
+    margin-left: 5px;
+    
+    font-family: Syne Mono;
+    font-size: 10px;
+    color: white;
+    text-align: left;
 }
 
 .index-footer{
@@ -629,7 +753,7 @@ body{
     top: 0px;
     width: 40px;
     height: 30px;
-    background-color: #ffc219;;
+    background-color: #e6435b;
 }
 
 .if-leftbox2 h2{
@@ -640,3 +764,37 @@ body{
     color: black;
     text-align: left;
 }
+
+.mobile-link-container{
+    display: none;
+}
+
+@media all and (max-width: 800px) {
+    .mobile-link-container{
+        display: block;
+    }
+}
+
+.mobile-link-container svg{
+    width: 30px;
+}
+
+.mobile-link-1{
+    position: absolute;
+    right: 100px;
+    top: 80px;
+}
+
+.mobile-link-2{
+    position: absolute;
+    right: 55px;
+    top: 80px;
+}
+
+.mobile-link-3{
+    position: absolute;
+    right: 10px;
+    top: 80px;
+}
+
+
