@@ -96,6 +96,7 @@ body {
 @media all and (max-width: 800px) {
     .gallery-thumbs {
         width: 200px;
+        margin-top: -20px;
     }
 }
 
