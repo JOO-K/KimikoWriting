@@ -664,8 +664,8 @@ body{
     height: 30px;
     box-sizing: border-box;
     background-color: black;
-    box-sizing: border-box;
     padding: 5px;
+    margin: 0px;
 }
 
 .real-index-footer h1{
@@ -676,6 +676,12 @@ body{
     font-size: 10px;
     color: white;
     text-align: left;
+}
+
+@media all and (max-width: 800px) {
+    .real-index-footer h1{
+        font-size:7px;
+    }
 }
 
 .index-footer{
